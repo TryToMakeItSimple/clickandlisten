@@ -61,7 +61,7 @@ let currentSongIndex = 0;
 
 function loadSong() {
     const currentSong = songs[currentSongIndex];
-    const songPath = `/mp3_music/${currentSong.file}`;
+    const songPath = `/music/${currentSong.file}`;
     audioPlayer.src = songPath;
 
     songTitle.textContent = currentSong.title;

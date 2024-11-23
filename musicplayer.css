@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('/mp3_music/images/S-7944__72016.jpg');
+    background-image: url('/images/S-7944__72016.jpg');
     margin: 3px;
     display: flex;
     align-items: center;
@@ -11,7 +11,7 @@ body {
 
 #music-player {
     text-align: center;
-    background-image: url('/mp3_music/images/pexels-bob-clark-1135995.jpg');
+    background-image: url('/images/pexels-bob-clark-1135995.jpg');
     background-size: cover;
     background-position: center;
     background-color: rgba(255, 255, 255, 0.8);
