@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('/mp3_music/images/S-7944__72016.jpg');
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+#music-player {
+    text-align: center;
+    background-image: url('/mp3_music/images/pexels-bob-clark-1135995.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+#song-info {
+    margin-bottom: 20px;
+}
+
+#song-title {
+    font-size: 2em;
+    margin-bottom: 5px;
+    color: rgb(9, 1, 1);
+    font-style: italic;
+}
+
+#artist {
+    color: #ff0606;
+    font-size: 20px;
+}
+
+#audio-player {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#controls button {
+    background-color: #5e314e;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#controls button:hover {
+    background-color: #faca0c;
+}
